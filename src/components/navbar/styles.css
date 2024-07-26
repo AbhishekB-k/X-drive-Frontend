@@ -1,0 +1,17 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+    background-color: #071952;
+}
+
+.navbar-right-items>text{
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+.text{
+    color: white;
+}

@@ -1,0 +1,73 @@
+.main-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://getwallpapers.com/wallpaper/full/5/0/1/44160.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login-header {
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form > label {
+    color: white;
+    font-size: medium;
+    margin: 15px 0 5px 0;
+    width: 90%;
+}
+
+.login-form > input {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-form > button {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.main-text{
+    width: 100%;
+    margin-left: 130px;
+}
+
+.login-form > button:hover {
+    background-color: #0056b3;
+}
+
+.main-text > text{
+    color: white;
+}

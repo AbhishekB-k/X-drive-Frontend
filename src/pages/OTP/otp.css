@@ -1,0 +1,96 @@
+.otp-page-container {
+    background-color: #EBF4F6;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.otp-main {
+    background-color: white;
+    width: 100%;
+}
+
+.otp-div-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.otp-img {
+    width: 400px;
+}
+
+.otp-verify {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-verify > span {
+    font-size: large;
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+
+.otp-verify > p {
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.otp-input-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.otp-input-container>input {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: large;
+    width: 200px;
+    font-weight: bolder;
+    border: 5px solid #088395;
+    border-radius: 5px;
+    color: #071952;
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+.otp-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.otp-button>button {
+    width: 300px;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #17B169;
+}
+
+.text-acc {
+    color: black;
+    padding-right: 30px;
+}
+
+.login-click {
+    color: rgb(22, 104, 143);
+}
+
+.otp-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+}
+
