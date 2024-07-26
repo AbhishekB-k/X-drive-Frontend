@@ -28,7 +28,7 @@ const OtpPage = () => {
     const handleChange = (value) => {
         setOtp(value);
     };
-
+  
     return (
         <>
             <Navbar />
