@@ -12,7 +12,7 @@ const useUploadFile = () => {
             formData.append("file", file);
             formData.append("parentId", parentId);
 
-            const res = await fetch(`${process.env.BACKEND_URL}/api/v1/file`, {
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/file`, {
                 method: "POST",
                 body: formData,
                 headers: {

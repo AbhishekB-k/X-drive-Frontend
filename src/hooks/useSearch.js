@@ -9,7 +9,7 @@ const useGetFileFoldersBysearch = () => {
     const getFileFoldersBysearch = async (filename) => {
         
         try {
-            const res = await fetch(`${process.env.BACKEND_URL}/api/v1/file-folder/search`, {
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/file-folder/search`, {
                 method: "POST",
                 body: JSON.stringify({ filename }),
                 headers: {

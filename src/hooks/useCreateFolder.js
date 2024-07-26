@@ -5,7 +5,7 @@ const useCreateFolder = () => {
 
     const createFolder = async ({ name, parentId }) => {
         try {
-            const res = await fetch(`${process.env.BACKEND_URL}/api/v1/folder/create`, {
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/folder/create`, {
                 method: "POST",
                 body: JSON.stringify({
                     name,

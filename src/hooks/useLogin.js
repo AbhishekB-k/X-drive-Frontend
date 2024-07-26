@@ -6,7 +6,7 @@ const useLogin = () => {
 
     const login = async ({ email, password }) => {
         try {
-            const res = await fetch(`${process.env.BACKEND_URL}/api/v1/auth/login`, {
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/auth/login`, {
                 method: "POST",
                 body: JSON.stringify({ email, password }),
                 headers: {

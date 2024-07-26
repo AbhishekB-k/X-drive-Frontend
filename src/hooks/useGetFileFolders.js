@@ -7,7 +7,7 @@ const useGetFileFolders = () => {
 
     const getFileFolders = async (parentId = null) => {
         try {
-            const res = await fetch(`${process.env.BACKEND_URL}/api/v1/file-folder`, {
+            const res = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/v1/file-folder`, {
                 method: "POST",
                 body: JSON.stringify({ parentId }),
                 headers: {
