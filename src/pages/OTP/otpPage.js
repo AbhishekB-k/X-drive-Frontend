@@ -28,6 +28,10 @@ const OtpPage = () => {
     const handleChange = (value) => {
         setOtp(value);
     };
+
+    useEffect(()=>{
+        generateNewOtp()
+    },[]);
   
     return (
         <>
